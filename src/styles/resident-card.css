@@ -1,0 +1,45 @@
+.resident-card {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resident-available {
+  border: 3px solid green;
+}
+
+.resident-not-available {
+  border: 3px solid darkred;
+}
+
+.resident-card:hover {
+  transform: scale(1.05);
+}
+
+.resident-name {
+  margin: 0 5px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.resident-room,
+.resident-preferred-name,
+.resident-program {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.resident-card-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.resident-card-select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
